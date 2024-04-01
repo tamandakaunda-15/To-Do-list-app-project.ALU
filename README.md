@@ -7,7 +7,9 @@ To run the application here is what you can do;
 
 
 2.Navigate to the directory 'docker_tasks' that contains the project
+
 3.Install dependecies
+
 4.Start the application using the npm start command
 
 Build a docker image using the command docker built -t my-node-app .
