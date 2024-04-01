@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple To-Do  list application</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body class="bg-colour">
+  <!-- Let's add 3 buttons inside the cointainer of our HTML; input field for tasks addition, a display list for tasks and button to add and remove tasks-->
+   <div class="container">
+    <h1 class="green"> My To-Do list </h1>
+      <p>
+    <input type="text" id="taskInput" placeholder="Add a new task">
+    <button onclick="addTask()" >Add Task</button>
+
+    <label for="tasks"> Status: </label>
+    <select class="dropbtn" id="tasks">
+        <option>Complete</option>
+        <option>Incomplete</option>
+    </select>
+
+    
+    <ul id="taskList"></ul>
+    </p>
+
+    
+          
+</div>
+
+<script src="script.js"></script>
+
+
+
+</body>
+</html>
