@@ -1,9 +1,11 @@
 ﻿# To-Do-list-app-project.ALU
-The purpose of the app is toenable you to add your own tasks to yout to-do list, delete the task if necessary and also show if the task is complete or not
+The purpose of the app is to  enable you to add your own tasks to yout to-do list, delete the task if necessary and also show if the task is complete or not
 
 To run the application here is what you can do;
 
-1.clone the git repository 'docker_containerisation'
+1.clone the git repository 'To-do-list-application-project.ALU'
+
+
 2.Navigate to the directory 'docker_tasks' that contains the project
 3.Install dependecies
 4.Start the application using the npm start command
